@@ -19,7 +19,7 @@ ember install ember-query-selector-helper
 ```
 
 ```handlebars
-{{#let (query-selector "#modal-portal" strict=false) as |portal|}}
+{{#let (query-selector "#modal-portal" optional=true) as |portal|}}
   {{#if portal}}
     {{#in-element portal}}
       <Modal />
