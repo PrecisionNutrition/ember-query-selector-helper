@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/PrecisionNutrition/ember-query-selector-helper",
   "license": "MIT",
   "author": "Precision Nutrition Team",
   "directories": {
